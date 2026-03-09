@@ -1,5 +1,5 @@
 ITD103 Knowledge Graph API 🕸️
-Student: [Your Name Here]
+Student: Sualden Sala
 
 Project: ITD103 Graph Database Applications
 
