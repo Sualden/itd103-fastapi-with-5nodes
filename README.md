@@ -49,18 +49,21 @@ GET /graph/cliques/student-course-career - Detects and returns 3-node graph tria
 When using the POST endpoints in the Swagger UI or the React frontend, you must provide a JSON payload.
 
 Example 1: Creating an Entity (Node) Target: POST /students/
-
 JSON
+
 {
   "name": "Alice"
 }
+
 Example 2: Creating a Relationship (Edge) Target: POST /graph/student-enrolls-course
 
 JSON
+
 {
   "source_name": "Alice",
   "target_name": "Intro to Python"
 }
+
 🛠️ Setup Instructions
 1. Create your .env file:
 The backend requires the following Neo4j credentials in the backend/ folder. Never commit this file to GitHub!
